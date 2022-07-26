@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+
+.banner {
+    display: flex;
+
+    background-color: black;
+}
+
+.banner-title {
+    color: white;
+}
