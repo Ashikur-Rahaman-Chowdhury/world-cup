@@ -1,16 +1,24 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 900px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.banner {
-    display: flex;
-
-    background-color: black;
+.container {
+    background-color: #161616;
 }
 
-.banner-title {
-    color: white;
+.banner-title h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.banner-title p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
