@@ -5,13 +5,24 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
 .container {
     display: flex;
     align-items: center;
+    width: 900px;
+    height: 600pxpx;
+
+
 
 }
 
 .banner-title {
+    /* color: white; */
     width: 531px;
     height: 424px;
     left: 280px;
@@ -23,4 +34,12 @@ body {
     height: 613px;
     left: 835px;
     top: 83px;
+}
+
+.transfar {
+    width: 312px;
+    height: 362px;
+    left: 476px;
+    top: 820px;
+
 }
