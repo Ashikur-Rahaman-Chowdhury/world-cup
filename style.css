@@ -6,19 +6,21 @@ body {
 }
 
 .container {
-    background-color: #161616;
+    display: flex;
+    align-items: center;
+
 }
 
-.banner-title h1 {
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 80px;
+.banner-title {
+    width: 531px;
+    height: 424px;
+    left: 280px;
+    top: 161px;
 }
 
-.banner-title p {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+.banner-img {
+    width: 581px;
+    height: 613px;
+    left: 835px;
+    top: 83px;
 }
